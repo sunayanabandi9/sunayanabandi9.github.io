@@ -1,5 +1,3 @@
-# DevOps Notes
-
 Welcome to the DevOps Notes! Click on the links below to navigate to different sections:
 
 - [Continuous Integration](/continuous_integration)
