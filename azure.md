@@ -53,3 +53,7 @@ export APPLICATION_NAME="<your application name>"
 export USER_ASSIGNED_MANAGED_IDENTITY_NAME="<your user-assigned managed identity name>"
 export RESOURCE_GROUP="<your user-assigned managed identity resource group>"
 ```
+az login using fedrated token
+```
+az login --service-principal -u ${AZURE_CLIENT_ID} -t ${AZURE_TENANT_ID} --federated-token $(cat ${AZURE_FEDERATED_TOKEN_FILE})
+```
